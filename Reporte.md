@@ -354,7 +354,7 @@ En la columna Wavelet se muestran nombres de wavelets correspondientes a la bibl
 
 
 # Conclusiones
-Teniendo en cuenta los resultados obtenidos anteriormente, se puede apreciar que el algoritmo tiene gran efectividad ya que los errores promedio se han mantenido todos por debajo de 0.1, lo cual es un indicador de la alta precisión de esta solución.
+Teniendo en cuenta los resultados obtenidos anteriormente, se puede apreciar que el algoritmo tiene gran efectividad ya que los errores promedio de la transformada de wavelet con los filtros aprendidos con respecto a los filtros prefefinidos se han mantenido todos por debajo de 0.1, lo cual es un indicador de la alta precisión de esta solución.
 
 Sin embargo, al ejecutar este algoritmo con un numéro de iteraciones no muy grande(2000 iteraciones) por cada señal, se puede apreciar una demora considerable si se pretende obtener eficiencia para realizar los cálculos de wavelet.
 
